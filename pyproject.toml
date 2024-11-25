@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "core"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Saadi <felipesaadisiegert@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "*"
+openai = "*"
+black = "*"
+python-dotenv = "*"
+langchain-openai = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
